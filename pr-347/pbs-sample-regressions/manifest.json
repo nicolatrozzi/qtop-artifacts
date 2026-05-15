@@ -1,0 +1,52 @@
+{
+  "note": "ANSI escape/control sequences stripped before rendering; screenshots use a monospace font.",
+  "before_after": [
+    {
+      "sample": "gef_0COupWwOLcbe0ETmuUMB2Q",
+      "before": "before-empty-files-no-worker-nodes.png",
+      "after": "after-empty-files-no-worker-nodes.png"
+    },
+    {
+      "sample": "gef_LxnDgIQrIHjGZQ4RuHbwFg",
+      "before": "before-malformed-qstat-lines.png",
+      "after": "after-malformed-qstat-lines.png"
+    },
+    {
+      "sample": "gef_-HHUHGmj9Z_TaPJ8QjMRMw",
+      "before": "before-mixed-wn-identifiers.png",
+      "after": "after-mixed-wn-identifiers.png"
+    },
+    {
+      "sample": "gef_hf1no6KxRDxydduEBngNiQ",
+      "before": "before-rogue-job-ids.png",
+      "after": "after-rogue-job-ids.png"
+    },
+    {
+      "sample": "gef_lY4ZSTmI-EVeA-8kDOLPYQ",
+      "before": "before-underscore-hostnames.png",
+      "after": "after-underscore-hostnames.png"
+    }
+  ],
+  "largest": [
+    {
+      "sample": "gef_yBVifVBTyE44AKnehzSrvA",
+      "screenshot": "largest-gef_yBVifVBTyE44AKnehzSrvA.png"
+    },
+    {
+      "sample": "gef_y2pQK8d9fstnQElgx8wuCw",
+      "screenshot": "largest-gef_y2pQK8d9fstnQElgx8wuCw.png"
+    },
+    {
+      "sample": "gef_xwILYNMpoabX4PDGYXIZAA",
+      "screenshot": "largest-gef_xwILYNMpoabX4PDGYXIZAA.png"
+    },
+    {
+      "sample": "gef_wd3MkxlAScZhd6-vEQakrg",
+      "screenshot": "largest-gef_wd3MkxlAScZhd6-vEQakrg.png"
+    },
+    {
+      "sample": "gef_ts1Dxv6MCHrBhBtWM3NhGw",
+      "screenshot": "largest-gef_ts1Dxv6MCHrBhBtWM3NhGw.png"
+    }
+  ]
+}
