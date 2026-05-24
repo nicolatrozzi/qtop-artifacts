@@ -1,0 +1,19 @@
+./qtop.py     ## Queueing System report tool. Press ? for help 
+v0.9.20260515 ## For feedback and updates, see: https://github.com/qtop/qtop
+Please try it with watch: ./qtop.py -s <SOURCEDIR> -w [<every_nr_of_sec>]
+===> Job accounting summary <=== 2026-05-25 00:33:56
+Summary: Total:2 Up:2 Free:1 Nodes | 4/32 cores |   2+1 jobs (R + Q) 
+Queues : compute: 1 + 1 | debug: 1 | * implies blocked
+
+===> Worker Nodes occupancy <=== (wnid_lines/core_map/Node state/queue name)
+1|220_____________|a|cd|
+2|0_______________|-|c |
+
+
+===> User accounts and pool mappings <=== (sorting according to total nr. of jobs)
+[id] unix account      |jobs >=   R +    Q | nodes |       GECOS field or Grid certificate DN |
+[ 0] heidi             |   1      1      0 |     2 |                                          |
+[ 1] grace             |   1      0      1 |     0 |                                          |
+[ 2] frank             |   1      1      0 |     1 |                                          |
+
+Log file created in ~/.local/qtop/logs/qtop.log
