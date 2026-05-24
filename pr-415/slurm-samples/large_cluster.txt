@@ -1,7 +1,7 @@
 ./qtop.py     ## Queueing System report tool. Press ? for help 
 v0.9.20260515 ## For feedback and updates, see: https://github.com/qtop/qtop
 Please try it with watch: ./qtop.py -s <SOURCEDIR> -w [<every_nr_of_sec>]
-===> Job accounting summary <=== 2026-05-25 00:33:57
+===> Job accounting summary <=== 2026-05-25 00:44:20
 Summary: Total:18 Up:17 Free:9 Nodes | 120/288 cores |   3+1 jobs (R + Q) 
 Queues : bulk: 3 + 1 | * implies blocked
 
