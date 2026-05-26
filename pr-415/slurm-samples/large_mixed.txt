@@ -1,22 +1,22 @@
 ./qtop.py     ## Queueing System report tool. Press ? for help 
 v0.9.20260515 ## For feedback and updates, see: https://github.com/qtop/qtop
 Please try it with watch: ./qtop.py -s <SOURCEDIR> -w [<every_nr_of_sec>]
-===> Job accounting summary <=== 2026-05-25 00:44:20
+===> Job accounting summary <=== 2026-05-26 08:43:04
 Summary: Total:20 Up:19 Free:9 Nodes | 160/320 cores |   3+1 jobs (R + Q) 
 Queues : gpu: 3 + 1 | * implies blocked
 
 ===> Worker Nodes occupancy <=== (wnid_lines/core_map/Node state/queue name)
-01|5555555555555555|a|g|
-02|5555555555555555|a|g|
-03|5555555555555555|%|g|
-04|4444444444444444|%|g|
-05|4444444444444444|a|g|
-06|4444444444444444|a|g|
-07|4444444444444444|a|g|
-08|3333333333333333|%|g|
+01|5555555555555555|b|g|
+02|5555555555555555|b|g|
+03|5555555555555555|b|g|
+04|4444444444444444|b|g|
+05|4444444444444444|b|g|
+06|4444444444444444|b|g|
+07|4444444444444444|b|g|
+08|3333333333333333|b|g|
 09|________________|d|g|
-10|0000000000000000|a|g|
-11|0000000000000000|a|g|
+10|0000000000000000|b|g|
+11|0000000000000000|b|g|
 12|________________|-|g|
 13|________________|-|g|
 14|________________|-|g|
