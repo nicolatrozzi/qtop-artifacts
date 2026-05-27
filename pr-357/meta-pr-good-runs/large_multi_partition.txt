@@ -1,0 +1,38 @@
+./qtop.py     ## Queueing System report tool. Press ? for help 
+v0.9.20260515 ## For feedback and updates, see: https://github.com/qtop/qtop
+Please try it with watch: ./qtop.py -s <SOURCEDIR> -w [<every_nr_of_sec>]
+===> Job accounting summary <=== 2026-05-26 08:43:04
+Summary: Total:18 Up:17 Free:10 Nodes | 104/288 cores |   3+1 jobs (R + Q) 
+Queues : compute: 1 + 1 | debug: 1 | long: 1 | * implies blocked
+
+===> Worker Nodes occupancy <=== (wnid_lines/core_map/Node state/queue name)
+01|5555555555555555|b|cd|
+02|3333333333333333|b|c |
+03|2222222222222222|b|l |
+04|2222222222222222|b|l |
+05|2222222222222222|b|l |
+06|2222222222222222|b|l |
+07|11111111________|b|c |
+08|________________|-|c |
+09|________________|-|c |
+10|________________|-|c |
+11|________________|-|c |
+12|________________|-|c |
+13|________________|-|c |
+14|________________|-|c |
+15|________________|-|c |
+16|________________|-|c |
+17|________________|d|c |
+18|________________|-|c |
+
+
+===> User accounts and pool mappings <=== (sorting according to total nr. of jobs)
+[id] unix account      |jobs >=   R +    Q | nodes |       GECOS field or Grid certificate DN |
+[ 0] ken               |   1      0      0 |     0 |                                          |
+[ 1] judy              |   1      0      0 |     1 |                                          |
+[ 2] ivan              |   1      1      0 |     4 |                                          |
+[ 3] heidi             |   1      1      0 |     1 |                                          |
+[ 4] grace             |   1      0      1 |     0 |                                          |
+[ 5] frank             |   1      1      0 |     1 |                                          |
+
+Log file created in ~/.local/qtop/logs/qtop.log
